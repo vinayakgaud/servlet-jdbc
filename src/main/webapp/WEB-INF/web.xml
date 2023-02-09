@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+	<!-- Servlet Initializing -->
+	<servlet>
+		<servlet-name>RegistrationServlet</servlet-name>
+		<servlet-class>com.servlet.RegistrationServlet</servlet-class>
+	</servlet>
+	<!-- Servlet Mapping -->
+	<servlet-mapping>
+		<servlet-name>RegistrationServlet</servlet-name>
+		<url-pattern>/RegistrationServlet</url-pattern>
+	</servlet-mapping>
+	<!-- Servlet Initializing -->
+	<servlet>
+		<servlet-name>SuccessServlet</servlet-name>
+		<servlet-class>com.servlet.SuccessServlet</servlet-class>
+	</servlet>
+	<!-- Servlet Mapping -->
+	<servlet-mapping>
+		<servlet-name>SuccessServlet</servlet-name>
+		<url-pattern>/SuccessServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
